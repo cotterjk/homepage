@@ -1,0 +1,75 @@
+* {
+}
+
+h1 {
+    font-size: 1rem;
+    color: #eee;
+    font-weight: normal;
+}
+
+p {
+    font-size: 1rem;
+    color: #222;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid #0000ff; */
+}
+
+[class*='col-'] {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid #ff0000; */
+}
+
+body {
+    background-color: #999;
+}
+details > summary::after {
+    float: right;
+}
+
+details#d_data > summary::after{
+    content:url("assets/data/WebsiteThumbnails-Plants-3-1.jpeg");
+}
+
+details[open] > summary::after{
+    display: none !important;
+}
+
+img.data_thumbnail {
+    width: inherit;
+    padding: 5px;
+}
+
+div.thumbnail_container {
+    width: inherit;
+    position: relative;
+}
+
+div.thumbnail_container:hover {
+    outline: 2px solid #eee;
+    outline-offset: -7px;
+}
+div.thumbnail_container:hover > img {
+    opacity:0
+}
+
+p.thumbnail_caption {
+    font-size: 1rem;
+    color: #eee;
+    position: absolute;
+    z-index: -1;
+    padding: 1rem;
+    margin: 0;
+    bottom: 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+    div #about {
+        position: inherit !important;;
+    }
+}
