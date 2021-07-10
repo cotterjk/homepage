@@ -85,4 +85,9 @@ p.thumbnail_caption {
     div #about {
         position: inherit !important;;
     }
+
+    div.thumbnail_col {
+        margin-right: 3rem;
+    }
+
 }
