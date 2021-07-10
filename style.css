@@ -7,6 +7,8 @@ h1, p {
 
 h1 {
     color: #eee;
+    border-top: 1px solid #222;
+
 }
 
 p {
@@ -28,8 +30,16 @@ p {
 body {
     background-color: #999;
 }
+
 details > summary::after {
     float: right;
+    margin-top: -5rem;
+    max-width: 75%;
+    /* padding-bottom: -0.4rem; */
+    vertical-align: top;
+    height: 200px;
+    border-left: 1px solid #222;
+
 }
 
 details#d_data > summary::after{
@@ -37,7 +47,7 @@ details#d_data > summary::after{
 }
 
 details[open] > summary::after{
-    display: none !important;
+    display: none;
 }
 
 img.data_thumbnail {
