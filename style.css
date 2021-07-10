@@ -52,6 +52,10 @@ details[open] > summary::after{
     display: none;
 }
 
+div.thumbnail_row {
+    padding: 0 1rem 1rem 0;
+}
+
 img.data_thumbnail {
     width: inherit;
 }
@@ -87,7 +91,7 @@ p.thumbnail_caption {
     }
 
     div.thumbnail_col {
-        margin-right: 3rem;
+        margin-right: 2rem;
     }
 
 }
