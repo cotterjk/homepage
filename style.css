@@ -7,7 +7,7 @@ h1, p {
 
 h1 {
     color: #eee;
-    border-top: 1px solid #222;
+    border-top: 1.5px solid #222;
 
 }
 
@@ -18,17 +18,17 @@ p {
 .row {
   margin: 0;
   padding: 0;
-  /* border: 1px solid #0000ff; */
+  /* border: 1.5px solid #0000ff; */
 }
 
 [class*='col-'] {
     margin: 0;
     padding: 0;
-    /* border: 1px solid #ff0000; */
+    /* border: 1.5px solid #ff0000; */
 }
 
 body {
-    background-color: #999;
+    background-color: #819D7A;
 }
 
 details > summary::after {
@@ -38,7 +38,7 @@ details > summary::after {
     /* padding-bottom: -0.4rem; */
     vertical-align: top;
     height: 200px;
-    border-left: 1px solid #222;
+    border-left: 1.5px solid #222;
 
 }
 
@@ -61,8 +61,8 @@ div.thumbnail_container {
 }
 
 div.thumbnail_container:hover {
-    outline: 2px solid #eee;
-    outline-offset: -7px;
+    outline: 1.5px solid #eee;
+    outline-offset: -6px;
 }
 div.thumbnail_container:hover > img {
     opacity:0
