@@ -24,16 +24,18 @@ p {
 [class*='col-'] {
     margin: 0;
     padding: 0;
+    padding-left: 1.1rem;
     /* border: 1.5px solid #ff0000; */
 }
 
 body {
     background-color: #819D7A;
+    padding: 2rem 0;
 }
 
 details > summary::after {
     float: right;
-    margin-top: -5rem;
+    margin-top: -5.01rem;
     max-width: 75%;
     /* padding-bottom: -0.4rem; */
     vertical-align: top;
@@ -52,17 +54,17 @@ details[open] > summary::after{
 
 img.data_thumbnail {
     width: inherit;
-    padding: 5px;
 }
 
 div.thumbnail_container {
     width: inherit;
     position: relative;
+    margin-bottom: 1rem;
 }
 
 div.thumbnail_container:hover {
     outline: 1.5px solid #eee;
-    outline-offset: -6px;
+    /* outline-offset: -0.5rem 0; */
 }
 div.thumbnail_container:hover > img {
     opacity:0
