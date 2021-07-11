@@ -3,6 +3,8 @@ h1, p {
     font-weight: normal;
     line-height: 1.5rem;
     margin: 0 0 1rem 0;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 300;
 }
 
 h1 {
