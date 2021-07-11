@@ -1,9 +1,9 @@
 h1, p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: normal;
     line-height: 1.5rem;
     margin: 0 0 1rem 0;
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     font-weight: 300;
 }
 
@@ -31,7 +31,7 @@ p {
 }
 
 body {
-    background-color: #819D7A;
+    background-color: #639fb7;
     padding: 2rem 0;
 }
 
@@ -70,18 +70,17 @@ div.thumbnail_container {
 
 div.thumbnail_container:hover {
     outline: 1.5px solid #eee;
-    /* outline-offset: -0.5rem 0; */
+    outline-offset: -1.5px;
 }
 div.thumbnail_container:hover > img {
     opacity:0
 }
 
 p.thumbnail_caption {
-    font-size: 1rem;
     color: #eee;
     position: absolute;
     z-index: -1;
-    padding: 1rem;
+    padding: 0.5rem 0.8rem;
     margin: 0;
     bottom: 0;
 }
