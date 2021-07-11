@@ -5,16 +5,18 @@ h1, p {
     margin: 0 0 1rem 0;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 300;
+    color: #0D3766;
 }
 
 h1 {
-    color: #eee;
-    border-top: 1.5px solid #222;
-
+    /* color: #eee; */
+    /* border-top: 1.5px solid #222; */
+    border-top: 1.5px solid #0D3766;
+    font-weight: 500;
 }
 
 p {
-    color: #222;
+    /* color: #222; */
 }
 
 .row {
@@ -31,7 +33,7 @@ p {
 }
 
 body {
-    background-color: #639fb7;
+    background-color: #E3DFC6;
     padding: 2rem 0;
 }
 
@@ -69,7 +71,8 @@ div.thumbnail_container {
 }
 
 div.thumbnail_container:hover {
-    outline: 1.5px solid #eee;
+    /* outline: 1.5px solid #eee; */
+    outline: 1.5px solid #0D3766;
     outline-offset: -1.5px;
 }
 div.thumbnail_container:hover > img {
@@ -77,7 +80,7 @@ div.thumbnail_container:hover > img {
 }
 
 p.thumbnail_caption {
-    color: #eee;
+    /* color: #eee; */
     position: absolute;
     z-index: -1;
     padding: 0.5rem 0.8rem;
