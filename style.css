@@ -38,6 +38,10 @@ body {
     padding: 2rem 0;
 }
 
+details > summary::marker {
+    color: #0D3766;
+}
+
 details > summary::after {
     float: right;
     margin-top: -5.01rem;
@@ -86,6 +90,17 @@ div.thumbnail_container:hover > img {
 
 a.thumbnail_container_link {
     width: inherit;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color:inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color:white;
 }
 
 p.thumbnail_caption {
