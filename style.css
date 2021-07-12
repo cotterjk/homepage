@@ -80,6 +80,10 @@ div.thumbnail_container:hover > img {
     opacity:0
 }
 
+a.thumbnail_container_link {
+    width: inherit;
+}
+
 p.thumbnail_caption {
     /* color: #eee; */
     position: absolute;
