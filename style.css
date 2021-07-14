@@ -133,4 +133,8 @@ ul > li:before {
         margin-right: 2rem;
     }
 
+    p.section_summary {
+        max-width: 100%;
+    }
+
 }
