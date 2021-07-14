@@ -38,6 +38,10 @@ body {
     padding: 2rem 0;
 }
 
+p.section_summary {
+    max-width: 35%;
+}
+
 details > summary::marker {
     color: #0D3766;
 }
