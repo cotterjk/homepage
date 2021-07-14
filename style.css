@@ -77,13 +77,10 @@ div.thumbnail_container {
     width: inherit;
     position: relative;
     margin-bottom: 1rem;
-}
-
-div.thumbnail_container:hover {
-    /* outline: 1.5px solid #eee; */
     outline: 1.5px solid #0D3766;
     outline-offset: -1.5px;
 }
+
 div.thumbnail_container:hover > img {
     opacity:0
 }
