@@ -10,8 +10,8 @@ h1, p, ul {
 
 h1 {
     /* color: #eee; */
-    /* border-top: 1.5px solid #222; */
-    border-top: 1.5px solid #0D3766;
+    /* border-top: 1px solid #222; */
+    border-top: 1px solid #0D3766;
     font-weight: 500;
 }
 
@@ -23,14 +23,14 @@ p {
 .row {
   margin: 0;
   padding: 0;
-  /* border: 1.5px solid #0000ff; */
+  /* border: 1px solid #0000ff; */
 }
 
 [class*='col-'] {
     margin: 0;
     padding: 0;
     padding-left: 1.1rem;
-    /* border: 1.5px solid #ff0000; */
+    /* border: 1px solid #ff0000; */
 }
 
 body {
@@ -49,7 +49,7 @@ details > summary::after {
     /* padding-bottom: -0.4rem; */
     vertical-align: top;
     height: 200px;
-    outline: 1.5px solid #0D3766;
+    outline: 1px solid #0D3766;
 
 }
 
@@ -59,7 +59,7 @@ details#d_data > summary::after{
 
 details#d_design > summary::after{
     content:url("assets/design/Thumbnail-Design.png");
-    margin-top: -8.05rem;
+    margin-top: -6.51rem;
 }
 
 details#d_music > summary::after{
@@ -90,8 +90,8 @@ div.thumbnail_container {
     width: inherit;
     position: relative;
     margin-bottom: 1rem;
-    outline: 1.5px solid #0D3766;
-    outline-offset: -1.5px;
+    outline: 1px solid #0D3766;
+    outline-offset: -1px;
 }
 
 div.thumbnail_container:hover > img {
