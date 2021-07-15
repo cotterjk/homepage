@@ -57,6 +57,10 @@ details#d_data > summary::after{
     content:url("assets/data/WebsiteThumbnails-Plants-3-1.jpeg");
 }
 
+details#d_design > summary::after{
+    content:url("assets/design/Thumbnail-Design.png");
+}
+
 details#d_music > summary::after{
     content:url("assets/music/WebsiteThumbnails_Music.jpg");
     margin-top: -6.51rem;
