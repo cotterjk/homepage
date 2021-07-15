@@ -38,10 +38,6 @@ body {
     padding: 2rem 0;
 }
 
-p.section_summary {
-    max-width: 35%;
-}
-
 details > summary::marker {
     color: #0D3766;
 }
@@ -131,10 +127,6 @@ ul > li:before {
 
     div.thumbnail_col {
         margin-right: 2rem;
-    }
-
-    p.section_summary {
-        max-width: 100%;
     }
 
 }
