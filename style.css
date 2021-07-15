@@ -66,6 +66,13 @@ details#d_music > summary::after{
     margin-top: -6.51rem;
 }
 
+p.section_summary {
+    background: #E3DFC6;
+    position: inherit;
+    width: fit-content;
+    padding-right: 1rem;
+}
+
 details[open] > summary::after{
     display: none;
 }
