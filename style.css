@@ -59,6 +59,7 @@ details#d_data > summary::after{
 
 details#d_music > summary::after{
     content:url("assets/music/WebsiteThumbnails_Music.jpg");
+    margin-top: -6.51rem;
 }
 
 details[open] > summary::after{
