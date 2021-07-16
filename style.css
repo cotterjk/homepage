@@ -44,6 +44,7 @@ details > summary::marker {
 
 details > summary::after {
     float: right;
+    overflow: hidden;
     margin-top: -5.01rem;
     max-width: 75%;
     /* padding-bottom: -0.4rem; */
