@@ -1,3 +1,8 @@
+body {
+    background-color: #E3DFC6;
+    padding: 2rem 0;
+}
+
 h1, p, ul {
     font-size: 1.1rem;
     font-weight: normal;
@@ -20,6 +25,15 @@ p {
     padding-right: 3rem;
 }
 
+h1::selection, p::selection, ul::selection, li::selection  {
+    color:#E3DFC6;
+    background-color: #0D3766;
+}
+
+a::selection  {
+    background-color: white;
+}
+
 .row {
   margin: 0;
   padding: 0;
@@ -31,11 +45,6 @@ p {
     padding: 0;
     padding-left: 1.1rem;
     /* border: 1px solid #ff0000; */
-}
-
-body {
-    background-color: #E3DFC6;
-    padding: 2rem 0;
 }
 
 details > summary::marker {
