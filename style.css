@@ -163,26 +163,15 @@ ul > li:before {
 [class*='col-'] img.gal:hover {
   opacity: 1;
 }
-
-/* The expanding image container */
-.gal_container {
-  position: relative;
-  display: none;
+img.design_example {
+    width: inherit;
 }
 
-/* Expanding image text */
-#imgtext {
-  position: absolute;
-  bottom: 0.5rem;
-  left: 0.8rem;
-}
-
-/* Closable button inside the expanded image */
-.closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
+img.design_example:hover {
+    position: fixed;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
 }
