@@ -47,6 +47,10 @@ a::selection  {
     /* border: 1px solid #ff0000; */
 }
 
+div #about-tools{
+    bottom:1rem;
+}
+
 details > summary::marker {
     color: #0D3766;
 }
@@ -143,7 +147,7 @@ ul > li:before {
 
 
 @media only screen and (max-width: 768px) {
-    div #about {
+    div #about, div #about-tools {
         position: inherit !important;;
     }
 
