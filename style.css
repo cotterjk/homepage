@@ -165,6 +165,9 @@ ul > li:before {
 }
 img.design_example {
     width: inherit;
+    margin-bottom: 1rem;
+    outline: 1px solid #0D3766;
+    outline-offset: -1px;
 }
 
 img.design_example:hover {
@@ -174,4 +177,5 @@ img.design_example:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 70%;
+    pointer-events: none;
 }
