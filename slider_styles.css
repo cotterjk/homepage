@@ -14,6 +14,10 @@ body {
   aspect-ratio: 5 / 2;
 }
 
+.flickity-viewport {
+    height: 100% !important;
+}
+
 .gallery-cell {
   width: 66%;
   margin-right: 10px;
