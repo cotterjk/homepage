@@ -12,6 +12,7 @@ body {
   background: #EEE;
   width: 100%;
   aspect-ratio: 5 / 2;
+  outline: 1px solid #0D3766;
 }
 
 .flickity-viewport {
