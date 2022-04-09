@@ -9,10 +9,10 @@ body {
 }
 
 .gallery {
-  background: #EEE;
+  background: red;
   width: 100%;
   aspect-ratio: 5 / 2;
-  outline: 1px solid #0D3766;
+  outline: 1px solid #0D3766 !important;
 }
 
 .flickity-viewport {
@@ -20,16 +20,26 @@ body {
 }
 
 .gallery-cell {
-  width: 66%;
-  margin-right: 10px;
+  width: 60%;
+  margin: 0px 5px;
   aspect-ratio: 3 / 2;
   background: #8C8;
   display: flex;
   justify-content: center;
+  position: relative;
+  text-align: left;
 }
 
 /* cell number */
 .gallery-cell:before {
   display: block;
-  text-align: center;
+  text-align: left;
+}
+
+.gallery-caption {
+    position: absolute;
+    /* bottom:10px; */
+    left:5px;
+    top:5px;
+    text-align: left;
 }
