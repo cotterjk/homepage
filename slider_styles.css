@@ -5,16 +5,19 @@
   box-sizing: border-box;
 }
 
-body { font-family: sans-serif; }
+body {
+}
 
 .gallery {
   background: #EEE;
+  width: 100%;
+  aspect-ratio: 5 / 2;
 }
 
 .gallery-cell {
   width: 66%;
-  height: 200px;
   margin-right: 10px;
+  aspect-ratio: 3 / 2;
   background: #8C8;
   display: flex;
   justify-content: center;
@@ -24,8 +27,4 @@ body { font-family: sans-serif; }
 .gallery-cell:before {
   display: block;
   text-align: center;
-}
-
-.gallery-image {
-
 }
