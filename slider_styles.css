@@ -9,7 +9,7 @@ body {
 }
 
 .gallery {
-  background: red;
+  background: transparent;
   width: 100%;
   aspect-ratio: 5 / 2;
   outline: 1px solid #0D3766 !important;
@@ -42,4 +42,26 @@ body {
     left:5px;
     top:5px;
     text-align: left;
+}
+
+path.arrow {
+    color: #0D3766;
+}
+
+button.flickity-button.flickity-prev-next-button {
+    background: transparent;
+    border: 1px solid #0D3766;
+}
+
+button.flickity-button.flickity-prev-next-button:hover {
+    background: #E3DFC6;
+}
+
+button.flickity-button.flickity-prev-next-button:active {
+    background: #0D3766;
+    opacity:1;
+}
+
+.flickity-page-dots{
+    visibility: hidden;
 }
