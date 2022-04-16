@@ -21,13 +21,14 @@ body {
 
 .gallery-cell {
   width: 60%;
-  margin: 0px 5px;
+  margin: 0px 2%;
   aspect-ratio: 3 / 2;
   background: #8C8;
   display: flex;
   justify-content: center;
   position: relative;
   text-align: left;
+  outline: 1px solid #0D3766
 }
 
 /* cell number */
