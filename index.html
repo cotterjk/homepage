@@ -9,7 +9,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="flickity/flickity.css" media="screen">
+        <script src="flickity/flickity.pkgd.min.js"></script>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="slider_styles.css">
+
     </head>
     <body>
         <div class="row" >
@@ -24,7 +28,7 @@
                     <p>working with: d3.js, html + css + js, Adobe InDesign + Illustrator, Processing, VCV Rack, Google Sheets</p>
                 </div>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-9 work-column">
                 <div class="row" >
                     <div class="col-md-12">
                         <h1>Dataviz&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/cotterkoopman" target="_blank"><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://github.com/cotterjk" target="_blank"><i class="fab fa-github"></i></a></h1>
@@ -88,34 +92,23 @@
                         <p class="section_summary">Visual communication within a brand.</p>
                         <details id="d_design">
                             <summary></summary><br/>
-                            <div class="row thumbnail_row">
-                              <div class="col-md-2 col-6 design_example_container">
-                                <img class="design_example" src="assets/design/ExaltaHealth_Booklet.jpg">
-                              </div>
-                              <div class="col-md-2 col-6 design_example_container">
-                                <img class="design_example" src="assets/design/GLROW_Materials.jpg">
-                              </div>
-                              <div class="col-md-2 col-6 design_example_container">
-                                <img class="design_example" src="assets/design/Matchbox_Togo_Inside.jpg">
-                              </div>
-                              <div class="col-md-2 col-6 design_example_container">
-                                <img class="design_example" src="assets/design/Matchbox_Togo_Outside.jpg">
-                              </div>
-                              <div class="col-md-2 col-6 design_example_container">
-                                <img class="design_example" src="assets/design/Mermaid_Billboard.jpg">
-                              </div>
-                              <div class="col-md-2 col-6 design_example_container">
-                                <img class="design_example" src="assets/design/MHW_Booklet.jpg">
-                              </div>
-                              <div class="col-md-2 col-6 design_example_container">
-                                <img class="design_example" src="assets/design/MHW_Endcaps.jpg">
-                              </div>
-                              <div class="col-md-2 col-6 design_example_container">
-                                <img class="design_example" src="assets/design/TPH_Booklet_Inside.jpg">
-                              </div>
-                              <div class="col-md-2 col-6 design_example_container">
-                                <img class="design_example" src="assets/design/TPH_Booklet_Outside.jpg">
-                              </div>
+                            <div class="gallery js-flickity main-carousel" data-flickity='{ "wrapAround": true }'>
+                                <div class="gallery-cell"><img class="gallery-image" src="assets/design/ExaltaHealth_Booklet.jpg"><p class="gallery-caption"></p></div>
+                                <div class="gallery-cell"><img class="gallery-image" src="assets/design/CR_SignUp_Inside.jpg"><p class="gallery-caption"></p></div>
+                                <div class="gallery-cell"><img class="gallery-image" src="assets/design/SOH_HealthyStartsHere.jpg"><p class="gallery-caption"></p></div>
+                                <div class="gallery-cell"><img class="gallery-image" src="assets/design/TPH_Booklet_Inside.jpg"><p class="gallery-caption"></p></div>
+                                <div class="gallery-cell"><img class="gallery-image" src="assets/design/TPH_Booklet_Outside.jpg"><p class="gallery-caption"></p></div>
+                                <div class="gallery-cell"><img class="gallery-image" src="assets/design/GLROW_Materials.jpg"><p class="gallery-caption"></p></div>
+                                <div class="gallery-cell"><img class="gallery-image" src="assets/design/ImLaw_PrintMaterials.jpg"><p class="gallery-caption"></p></div>
+                                <div class="gallery-cell"><img class="gallery-image" src="assets/design/ImLaw_SocialMockup.jpg"><p class="gallery-caption"></p></div>
+                                <div class="gallery-cell"><img class="gallery-image" src="assets/design/ITS_OneSheet.jpg"><p class="gallery-caption"></p></div>
+                                <div class="gallery-cell"><img class="gallery-image" src="assets/design/Matchbox_Togo_Inside.jpg"><p class="gallery-caption"></p></div>
+                                <div class="gallery-cell"><img class="gallery-image" src="assets/design/Matchbox_Togo_Outside.jpg"><p class="gallery-caption"></p></div>
+                                <div class="gallery-cell"><img class="gallery-image" src="assets/design/Mermaid_Billboard.jpg"><p class="gallery-caption"></p></div>
+                                <div class="gallery-cell"><img class="gallery-image" src="assets/design/MHW_Booklet.jpg"><p class="gallery-caption"></p></div>
+                                <div class="gallery-cell"><img class="gallery-image" src="assets/design/MHW_Endcaps.jpg"><p class="gallery-caption"></p></div>
+                                <div class="gallery-cell"><img class="gallery-image" src="assets/design/SBE_ConferenceSchedule.jpg"><p class="gallery-caption"></p></div>
+                                <div class="gallery-cell"><img class="gallery-image" src="assets/design/ICCF_Gala2022_Photos.jpg"><p class="gallery-caption"></p></div>
                             </div>
                         </details>
                     </div>
