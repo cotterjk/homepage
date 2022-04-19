@@ -1,10 +1,17 @@
+:root {
+    --light: #E3DFC6;
+    --dark: #0D3766;
+    --highlight: green;
+}
+
+
 .work-column {
-    border-right: 1px solid #0D3766;
+    border-right: 1px solid var(--dark);
 
 }
 body {
-    /* background-color: #E3DFC6; */
-    background-color: #E3DFC6;
+    /* background-color: var(--light); */
+    background-color: var(--light);
     padding: 2rem 0;
 }
 
@@ -15,13 +22,13 @@ h1, p, ul, #imgtext {
     margin: 0 0 1rem 0;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 300;
-    color: #0D3766;
+    color: var(--dark);
 }
 
 h1 {
     /* color: #eee; */
     /* border-top: 1px solid #222; */
-    border-top: 1px solid #0D3766;
+    border-top: 1px solid var(--dark);
     font-weight: 500;
 }
 
@@ -31,12 +38,12 @@ p {
 }
 
 h1::selection, p::selection, ul::selection, li::selection  {
-    color:#E3DFC6;
-    background-color: #0D3766;
+    color:var(--light);
+    background-color: var(--dark);
 }
 
 a::selection  {
-    background-color: white;
+    background-color: var(--highlight);
 }
 
 .row {
@@ -57,7 +64,7 @@ div #about-tools{
 }
 
 details > summary::marker {
-    color: #0D3766;
+    color: var(--dark);
 }
 
 details > summary::after {
@@ -68,7 +75,7 @@ details > summary::after {
     /* padding-bottom: -0.4rem; */
     vertical-align: top;
     height: 200px;
-    outline: 1px solid #0D3766;
+    outline: 1px solid var(--dark);
 }
 
 details#d_data > summary::after{
@@ -85,7 +92,7 @@ details#d_music > summary::after{
 }
 
 p.section_summary {
-    background: #E3DFC6;
+    background: var(--light);
     position: inherit;
     width: fit-content;
     padding-right: 1rem;
@@ -111,7 +118,7 @@ div.thumbnail_container {
     width: inherit;
     position: relative;
     margin-bottom: 1rem;
-    outline: 1px solid #0D3766;
+    outline: 1px solid var(--dark);
     outline-offset: -1px;
 }
 
@@ -131,7 +138,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    color:white;
+    color: var(--highlight);
 }
 
 p.thumbnail_caption {
@@ -179,7 +186,7 @@ ul > li:before {
 img.design_example {
     width: inherit;
     margin-bottom: 1rem;
-    outline: 1px solid #0D3766;
+    outline: 1px solid var(--dark);
     outline-offset: -1px;
     position: relative;
     z-index: 1;

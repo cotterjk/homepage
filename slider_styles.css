@@ -1,5 +1,4 @@
 /* external css: flickity.css */
-
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -12,7 +11,7 @@ body {
   background: transparent;
   width: 100%;
   aspect-ratio: 5 / 2;
-  outline: 1px solid #0D3766 !important;
+  outline: 1px solid var(--dark) !important;
 }
 
 .flickity-viewport {
@@ -28,7 +27,7 @@ body {
   justify-content: center;
   position: relative;
   text-align: left;
-  outline: 1px solid #0D3766
+  outline: 1px solid var(--dark)
 }
 
 /* cell number */
@@ -46,20 +45,20 @@ body {
 }
 
 path.arrow {
-    color: #0D3766;
+    color: var(--dark);
 }
 
 button.flickity-button.flickity-prev-next-button {
     background: transparent;
-    border: 1px solid #0D3766;
+    border: 1px solid var(--dark);
 }
 
 button.flickity-button.flickity-prev-next-button:hover {
-    background: #E3DFC6;
+    background: var(--light);
 }
 
 button.flickity-button.flickity-prev-next-button:active {
-    background: #0D3766;
+    background: var(--dark);
     opacity:1;
 }
 
