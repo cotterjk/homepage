@@ -172,14 +172,3 @@ ul > li:before {
     }
 
 }
-
-/* Image gallery formatting */
-
-[class*='col-'] img.gal {
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-[class*='col-'] img.gal:hover {
-  opacity: 1;
-}
