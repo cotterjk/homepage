@@ -10,7 +10,6 @@
 
 }
 body {
-    /* background-color: var(--light); */
     background-color: var(--light);
     padding: 2rem 0;
 }
@@ -56,7 +55,6 @@ a::selection  {
     margin: 0;
     padding: 0;
     padding-left: 1.1rem;
-    /* border: 1px solid #ff0000; */
 }
 
 div #about-tools{
@@ -67,12 +65,15 @@ details > summary::marker {
     color: var(--dark);
 }
 
+details > summary:hover::marker {
+    color: var(--highlight);
+}
+
 details > summary::after {
     float: right;
     overflow: hidden;
     margin-top: -5.01rem;
     max-width: 75%;
-    /* padding-bottom: -0.4rem; */
     vertical-align: top;
     height: 200px;
     outline: 1px solid var(--dark);
