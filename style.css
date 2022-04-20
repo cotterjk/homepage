@@ -182,23 +182,3 @@ ul > li:before {
 [class*='col-'] img.gal:hover {
   opacity: 1;
 }
-
-img.design_example {
-    width: inherit;
-    margin-bottom: 1rem;
-    outline: 1px solid var(--dark);
-    outline-offset: -1px;
-    position: relative;
-    z-index: 1;
-    pointer-events: auto;
-}
-
-img.design_example:hover {
-    position: fixed;
-    z-index: 2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 70%;
-    pointer-events: none;
-}
