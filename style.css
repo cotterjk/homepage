@@ -124,7 +124,11 @@ div.thumbnail_container {
 }
 
 div.thumbnail_container:hover > img {
-    opacity:0
+    opacity: 0;
+}
+
+div.thumbnail_container:hover {
+    outline: 1px solid var(--highlight);
 }
 
 a.thumbnail_container_link {
@@ -143,12 +147,12 @@ a:hover {
 }
 
 p.thumbnail_caption {
-    /* color: #eee; */
     position: absolute;
     z-index: -1;
     padding: 0.5rem 0.8rem;
     margin: 0;
     bottom: 0;
+    color: var(--highlight);
 }
 
 ul {
