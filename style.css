@@ -175,4 +175,15 @@ ul > li:before {
         margin-right: 2rem;
     }
 
+    a {
+        color: var(--highlight);
+    }
+    a:hover {
+        opacity:0.5;
+    }
+
+    details > summary::marker {
+        color: var(--highlight);
+    }
+
 }
