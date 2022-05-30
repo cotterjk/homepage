@@ -38,11 +38,18 @@ body {
 
 .gallery-caption {
     position: absolute;
-    /* bottom:10px; */
+    padding: 3px 20px;
     background: var(--light);
-    left:5px;
-    top:5px;
+    left:0px;
+    right: 0px;
+    top:0px;
     text-align: left;
+    visibility: hidden;
+    outline: 1px solid var(--dark);
+}
+
+.gallery-cell:hover .gallery-caption {
+    visibility: visible;
 }
 
 path.arrow {
