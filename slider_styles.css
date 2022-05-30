@@ -39,6 +39,7 @@ body {
 .gallery-caption {
     position: absolute;
     /* bottom:10px; */
+    background: var(--light);
     left:5px;
     top:5px;
     text-align: left;
