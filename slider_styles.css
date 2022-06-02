@@ -73,3 +73,10 @@ button.flickity-button.flickity-prev-next-button:active {
 .flickity-page-dots{
     visibility: hidden;
 }
+
+@media only screen and (max-width: 768px) {
+    .gallery-caption {
+        font-size: 0.8rem;
+        line-height: normal;
+    }
+}
